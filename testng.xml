@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.testng.reporters.XMLReporter" />
+		<listener class-name="org.testng.reporters.JUnitXMLReporter" />
+		<listener class-name="org.testng.reporters.TestHTMLReporter" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="com.qa.testcases.ValidLoginTest" />
+			<class name="com.qa.testcases.ValidateHomePageTitle" />
+		</classes>
+	</test> 
+</suite>
